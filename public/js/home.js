@@ -6,7 +6,7 @@ let wordArr = [
   "Cafeteria! ",
   "Created by ",
 
-  "Mostfa  ",
+  "Mostafa  ",
 
   ];
 
