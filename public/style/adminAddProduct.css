@@ -1,0 +1,15 @@
+.adminAddProductrPage{
+    margin-top: 120px;
+    padding-bottom: 30px;
+
+}
+
+.adminAddProductrPage .Productfor{
+        padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.adminAddProductrPage .Productfor label{
+    font-weight: bold;
+}

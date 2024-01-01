@@ -1,0 +1,74 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/image12.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 101;
+    /* transition: .3s; */
+    animation: backgroundAnimation 10s linear infinite ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url("../images/image12.jpg");
+        /* opacity: 0; */
+        }
+
+    25% {
+        background-image: url("../images/image15.jpg");
+    }
+    65% {
+        background-image: url("../images/image16.jpg");
+    }
+   
+    100% {
+        background-image: url("../images/image12.jpg");
+    }
+}
+
+.login::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(49, 49, 49, 0.582);
+}
+
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.login .card {
+    background-color: #00000070 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* .card .card-header .card-body label{
+    color: red !important;
+} */
+.login .Forgot a{
+    color: blue;
+    transition: .3s;
+}
+.login .Forgot a:hover{
+    color: rgb(255, 255, 255);
+}

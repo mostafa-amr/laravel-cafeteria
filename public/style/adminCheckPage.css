@@ -1,0 +1,62 @@
+
+.adminCheckPage {
+    margin-top: 120px;
+}
+
+.adminCheckPage .orderItems  {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.adminCheckPage .orderItems .checkDrink {
+width: 50px;
+height: 50px;
+margin: 0 5px;
+position: relative;
+}
+
+
+.adminCheckPage div.orderItems img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.adminCheckPage .orderItems .checkDrink .drinkPrice{
+
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #afafaf;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 120;
+   
+}
+
+
+.adminCheckPage .for{
+    /* overflow-x: auto; */
+
+}
+
+.adminCheckPage .for table{
+   /* width: 800px; */
+   
+   /* margin: auto; */
+   
+}
+
+.adminCheckPage .for:not(:first-child){
+  margin-top: 30px;
+   
+}
+

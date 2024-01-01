@@ -1,0 +1,20 @@
+.adminEditUserPage{
+    margin-top: 120px;
+    padding-bottom: 30px;
+
+}
+
+.adminEditUserPage .for{
+    overflow-x: auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.adminEditUserPage .for form{
+   width: 100%;
+}
+
+.adminEditUserPage .for label{
+    font-weight: bold;
+}

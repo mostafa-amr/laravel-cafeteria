@@ -1,0 +1,20 @@
+.adminAddUserPage{
+    margin-top: 120px;
+    padding-bottom: 30px;
+
+}
+
+.adminAddUserPage .for{
+    overflow-x: auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.adminAddUserPage .for form{
+   width: 100%;
+}
+
+.adminAddUserPage .for label{
+    font-weight: bold;
+}

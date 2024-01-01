@@ -1,0 +1,107 @@
+.welocomNav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 10px 0;
+}
+.navRigh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.navRigh a {
+    color: aliceblue;
+    margin-left: 30px;
+}
+.navRigh a.link {
+    color: aliceblue;
+    padding: 0px 15px;
+    border-radius: 5px;
+    /* background-color: red; */
+    transition: 0.3s;
+}
+.navRigh a.link:hover {
+    color: aliceblue;
+    background-color: white;
+    color: black;
+}
+
+.antialiased {
+    height: 100vh;
+    background-image: url("../images/image1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 101;
+    /* transform: 1s; */
+    /* transition: 1s; */
+    animation: backgroundAnimation 30s linear infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url("../images/image1.jpg");
+    }
+
+    25% {
+        background-image: url("../images/image6.jpg");
+    }
+    50% {
+        background-image: url("../images/image13.jpg");
+    }
+    75% {
+        background-image: url("../images/image2.jpg");
+    }
+    100% {
+        background-image: url("../images/image1.jpg");
+    }
+}
+.antialiased::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.antialiased .hom {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.antialiased .hom img {
+    width: 100%;
+    filter: grayscale(50%);
+    transition: 0.3s;
+}
+.antialiased .hom img:hover {
+    filter: grayscale(0%);
+}
+
+.container {
+    height: 100%;
+}
+.welcom {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcom h1 {
+    font-size: 4rem;
+    color: white;
+}
+.welcom h1 {
+    font-size: 4rem;
+    color: white;
+}

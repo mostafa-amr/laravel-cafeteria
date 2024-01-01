@@ -1,0 +1,51 @@
+#app nav.nav-bg-app{
+
+    background-color: rgba(158, 158, 158, 0.281);
+}
+
+#app nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 0;
+}
+
+#app nav .navbar-brand{
+    width: 60px;
+    height: 60px;
+
+}
+
+#app nav img{
+width: 100%;
+filter: grayscale(50%);
+transition: .3s;
+
+
+}
+#app nav img:hover{
+    filter: grayscale(0%);
+
+
+}
+
+#app nav p {
+ 
+    padding: 0px;
+    margin: 0;;
+}
+
+#app nav a.linkk {
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* background-color: red; */
+    transition: 0.3s;
+}
+#app nav a.linkk:hover {
+    color: aliceblue;
+    background-color: white;
+    color: black;
+}
